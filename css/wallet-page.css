@@ -1,0 +1,94 @@
+.page__title-wallets {
+    margin-bottom: 40px;
+}
+
+.wallets__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -55px;
+}
+
+.wallets__item {
+    flex: 0 0 307px;
+    padding-left: 55px;
+    margin-bottom: 40px;
+}
+
+.wallet__block-pic {
+    margin-bottom: 23px;
+    height: 153px;
+}
+
+.wallet__avatar {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 5px;
+    overflow: hidden;
+    max-height: 100%;
+}
+
+.wallet__img-elem {
+    width: 100%;
+    /* flex: 1; */
+}
+
+.wallet__img-text {
+    position: absolute;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Gotham Pro', Helvetica, Tahoma, Arial, sans-serif;
+    text-transform: uppercase;
+    color: #5dd1f8;
+}
+
+.wallet__img-vip,
+.wallet__img-name {
+    font-size: 24px;
+    font-family: 'Gotham Pro', Helvetica, Tahoma, Arial, sans-serif;
+    text-transform: uppercase;
+    color: #5dd1f8;
+}
+.wallet__img-vip {
+    color: #ec1e79;
+}
+
+.wallet__text {
+    padding: 0 8px;
+    text-align: center;
+}
+
+.wallet__title {
+    font-family: 'Gotham Pro', Helvetica, Tahoma, Arial, sans-serif;
+    color: #221f1f;
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: inline-block;
+    width: 90%;
+}
+
+.wallet__desc {
+    font-family: 'Gotham Pro Light', Helvetica, Tahoma, Arial, sans-serif;
+    color: #221f1f;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.partners__list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.partners__item {
+    flex: 0 0 285px;
+    margin-bottom: 44px;
+}
+
+.partner__block {
+    display: inline-block;
+    filter: grayscale(100%);
+}
