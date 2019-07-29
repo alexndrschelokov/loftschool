@@ -18,6 +18,12 @@
     margin-bottom: 23px;
     height: 153px;
 }
+.wallet__block-pic:hover .wallet__avatar::before {
+    background-color: transparent;
+}
+.wallet__block-pic:hover .wallet__img-text {
+    opacity: 0;
+}
 
 .wallet__avatar {
     position: relative;
@@ -28,6 +34,18 @@
     border-radius: 5px;
     overflow: hidden;
     max-height: 100%;
+    cursor: pointer;
+}
+.wallet__avatar::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(39,39,62, .84);
+    transition: background-color .4s;
 }
 
 .wallet__img-elem {
@@ -42,6 +60,8 @@
     font-family: 'Gotham Pro', Helvetica, Tahoma, Arial, sans-serif;
     text-transform: uppercase;
     color: #5dd1f8;
+
+transition: opacity .3s;
 }
 
 .wallet__img-vip,
@@ -88,7 +108,13 @@
     margin-bottom: 44px;
 }
 
+.partners__item:hover .partner__block {
+    filter: grayscale(0%);
+}
+
 .partner__block {
     display: inline-block;
     filter: grayscale(100%);
+
+    transition: filter .33s;
 }

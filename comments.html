@@ -234,10 +234,16 @@
                                     <div class="form__questions">
                                         <div class="form__questions-text">Отображать фото в отзыве?</div>
                                         <div class="form__questions-radio">
-                                            <input class="form__radio" type="radio" name="radio" id="radio-yes">
-                                            <label class="form__radio-text" for="radio-yes">Да</label>
-                                            <input class="form__radio" type="radio" name="radio" id="radio-no">
-                                            <label class="form__radio-text" for="radio-no">Нет</label>
+                                            <label for="yes" class="form__radio-trigger">
+                                                <input class="visually-hidden" type="radio" name="photo" id="yes">
+                                                <span class="form__radio-custom"></span>
+                                                <span class="form__radio-title">Да</span>
+                                            </label>
+                                            <label for="no" class="form__radio-trigger">
+                                                <input class="visually-hidden" type="radio" name="photo" id="no">
+                                                <span class="form__radio-custom"></span>
+                                                <span class="form__radio-title">Нет</span>
+                                            </label>
                                         </div>
                                     </div>
                                     <div class="form__buttons">
