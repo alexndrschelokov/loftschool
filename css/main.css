@@ -1,3 +1,11 @@
+/* base */
+@import url("base/fonts.css");
+@import url("base/settings.css");
+@import url("base/normalize.min.css");
+
+
 @import url("main-page.css");
 @import url("feed-page.css");
 @import url("wallet-page.css");
+
+/* block */
