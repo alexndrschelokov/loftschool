@@ -1,0 +1,67 @@
+.wrapper-fixed {
+    background: url(../img/index-banner.jpg) center center / cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.auth__content {
+    animation: bounce .5s;
+}
+
+.auth__logo {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.auth__logo-img {
+    width: 95%;
+}
+
+.auth__welcome-elem {
+    display: block;
+
+    padding: 11px 15px;
+    letter-spacing: 2px;
+    color: #ec1e79;
+    border: 3px solid currentColor;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: 'Gotham Pro', Helvetica, Arial, Tahoma, sans-serif;
+
+    transition: border-color .3s, background-color .3s, color .3s;
+}
+
+.auth__welcome-elem:hover {
+    border-color: #ec1e79;
+    background: #ec1e79;
+    color: #fff;
+}
+
+@keyframes bounce {
+    from {
+        opacity: 0;
+        transform: scale(0) rotate(30deg);
+    }
+
+    20% {
+        transform: rotate(-12deg);
+    }
+
+    40% {
+        transform: rotate(8deg);
+    }
+
+    60% {
+        transform: rotate(-4deg);
+    }
+
+    80% {
+        transform: rotate(3deg);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1) rotate(0deg);
+    }
+}
