@@ -6,7 +6,8 @@
 }
 
 .auth__content {
-    animation: bounce .5s;
+    opacity: 0;
+    animation: bounce .5s .5s;
 }
 
 .auth__logo {
