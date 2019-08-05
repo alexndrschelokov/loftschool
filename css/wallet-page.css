@@ -97,6 +97,14 @@ transition: opacity .3s;
     line-height: 1.5;
 }
 
+.partners__border {
+    text-align: center;
+    padding-top: 20px;
+    border: 1px solid #e8e9ed;
+
+    margin-bottom: 30px;
+}
+
 .partners__list {
     display: flex;
     flex-wrap: wrap;
